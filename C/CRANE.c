@@ -199,10 +199,10 @@ Node* deleteSingly(Node* head, char* target)
         prev = curr;
         curr = curr->next;
     }
-    if 
-        (curr == NULL) return head;
-    if 
-        (prev == NULL) head = curr->next;
+    if (curr == NULL) 
+        return head;
+    if (prev == NULL) 
+        head = curr->next;
     else
     {
         prev->next = curr->next;
