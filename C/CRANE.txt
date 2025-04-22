@@ -1,0 +1,15 @@
+DATA STRUCTURE AND LOGICAL THINKING 
+ASSIGNMENT-1
+
+Question 3: Autonomous Crane Fabrication Unit
+
+Scenario: You’re designing an Autonomous Crane Fabrication Unit for assembling crane parts
+(e.g., "Boom", "Counterweight", "Cable", "Hook", "Base") in a construction yard. The unit uses:
+
+    ●	Part Delivery System (Queue): Parts arrive via trucks and queue for fabrication.
+    ●	Crane Task Manager (Stack): Robots stack parts in LIFO order for load balancing.
+    ●	Assembly Storage Unit (Array): Finished cranes store in an array-based yard (size: 6 slots). If full, the oldest is deployed.
+    ●	Repair and Upgrade Tracker (Linked Lists):
+        ○	Faulty cranes go to a singly linked list.
+        ○	Repaired cranes move to a doubly linked list for dual checks.
+        ○	High-priority cranes cycle in a circular linked list for urgent upgrades.
